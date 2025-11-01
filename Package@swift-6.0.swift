@@ -14,7 +14,7 @@ let package = Package(
     .library(name: "IssueReporting", targets: ["IssueReporting"]),
     .library(
       name: "IssueReportingTestSupport",
-      type: .dynamic,
+      type: .static,
       targets: ["IssueReportingTestSupport"]
     ),
     .library(name: "XCTestDynamicOverlay", targets: ["XCTestDynamicOverlay"]),
